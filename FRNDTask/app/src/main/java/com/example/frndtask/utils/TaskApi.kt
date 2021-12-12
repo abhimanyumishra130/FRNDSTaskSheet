@@ -8,9 +8,10 @@ import retrofit2.http.*
 
 interface TaskApi {
 
-
     @POST("api/getCalendarTaskLists")
-    suspend fun getTasks(@Body data:GetDataRequestModel): TaskModel
+    suspend fun getTasks(
+        @Body data:GetDataRequestModel
+    ): TaskModel
 
     @POST("api/deleteCalendarTask")
     suspend fun deleteTask(
@@ -21,4 +22,5 @@ interface TaskApi {
     suspend fun postTask(
         @Body userStore:PostDataRequest
     )
+
 }

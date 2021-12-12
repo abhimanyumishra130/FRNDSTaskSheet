@@ -7,6 +7,7 @@ import com.example.frndtask.data.models.TaskDbDetail
 import com.example.frndtask.data.models.TaskDetail
 import com.example.frndtask.data.models.request.DeleteDataRequest
 import com.example.frndtask.data.models.request.GetDataRequestModel
+import com.example.frndtask.data.models.request.PostDataRequest
 import com.example.frndtask.di.AppModule
 import com.example.frndtask.utils.TaskApi
 import kotlinx.coroutines.CoroutineScope
@@ -52,6 +53,12 @@ class TaskRepository @Inject constructor(val dao: TaskDao) {
     fun clearDb(){
         CoroutineScope(Dispatchers.IO).launch {
             dao.clearDB()
+        }
+    }
+
+    fun postTOApi(postDataRequest: PostDataRequest){
+        CoroutineScope(Dispatchers.IO).launch {
+            api.postTask(postDataRequest)
         }
     }
 }

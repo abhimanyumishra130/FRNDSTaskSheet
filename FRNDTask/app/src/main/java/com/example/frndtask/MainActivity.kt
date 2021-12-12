@@ -1,5 +1,6 @@
 package com.example.frndtask
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -10,6 +11,7 @@ import com.example.frndtask.data.models.Task
 import com.example.frndtask.data.models.TaskDbDetail
 import com.example.frndtask.data.models.TaskDetail
 import com.example.frndtask.databinding.ActivityMainBinding
+import com.example.frndtask.ui.AddTaskActivity
 import com.example.frndtask.ui.OnClickListener
 import com.example.frndtask.ui.TaskAdapter
 import com.example.frndtask.viewModel.TaskViewModel
@@ -53,7 +55,7 @@ class MainActivity : AppCompatActivity(), OnClickListener {
 
     override fun deleteItem(task: TaskDbDetail) {
         viewModel.deleteTask(task.task_id)
-//        viewModel.deleteTask(task)
-        setRecyclerView()
+        viewModel.deleteTask(task)
+//        setRecyclerView()
     }
 }

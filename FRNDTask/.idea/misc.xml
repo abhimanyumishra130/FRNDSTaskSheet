@@ -3,8 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/dell/AndroidStudioProjects/FRNDSTaskSheet/FRNDTask/app/src/main/res/drawable/current_selected_date_bg.xml" value="0.26458333333333334" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/FRNDSTaskSheet/FRNDTask/app/src/main/res/drawable/custom_bordered_ripple.xml" value="0.26458333333333334" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/FRNDSTaskSheet/FRNDTask/app/src/main/res/drawable/date_bg.xml" value="0.26458333333333334" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/FRNDSTaskSheet/FRNDTask/app/src/main/res/drawable/ic_add_white.xml" value="0.26458333333333334" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/FRNDSTaskSheet/FRNDTask/app/src/main/res/drawable/ic_calendar.xml" value="0.26458333333333334" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/FRNDSTaskSheet/FRNDTask/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26458333333333334" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/FRNDSTaskSheet/FRNDTask/app/src/main/res/drawable/ic_task_icon.xml" value="0.26458333333333334" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/FRNDSTaskSheet/FRNDTask/app/src/main/res/drawable/selected_date_bg.xml" value="0.26458333333333334" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/FRNDSTaskSheet/FRNDTask/app/src/main/res/drawable/today_bg.xml" value="0.26458333333333334" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/FRNDSTaskSheet/FRNDTask/app/src/main/res/layout/activity_add_task_acitvity.xml" value="0.2" />
         <entry key="..\:/Users/dell/AndroidStudioProjects/FRNDSTaskSheet/FRNDTask/app/src/main/res/layout/activity_main.xml" value="0.16259057971014493" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/FRNDSTaskSheet/FRNDTask/app/src/main/res/layout/add_task_layout.xml" value="0.264" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/FRNDSTaskSheet/FRNDTask/app/src/main/res/layout/calender_date.xml" value="0.22327898550724637" />
         <entry key="..\:/Users/dell/AndroidStudioProjects/FRNDSTaskSheet/FRNDTask/app/src/main/res/layout/item_layout.xml" value="0.2" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/FRNDSTaskSheet/FRNDTask/app/src/main/res/layout/layout_calendar_days.xml" value="0.22327898550724637" />
         <entry key="..\:/Users/dell/AndroidStudioProjects/FRNDTask/app/src/main/res/layout/activity_main.xml" value="0.16893115942028986" />
         <entry key="..\:/Users/dell/AndroidStudioProjects/FRNDTask/app/src/main/res/layout/item_layout.xml" value="0.16893115942028986" />
       </map>

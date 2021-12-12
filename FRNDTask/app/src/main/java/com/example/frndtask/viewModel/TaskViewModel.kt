@@ -4,6 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import com.example.frndtask.data.models.TaskDbDetail
 import com.example.frndtask.data.models.TaskDetail
+import com.example.frndtask.data.models.request.PostDataRequest
 import com.example.frndtask.repository.TaskRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
@@ -29,4 +30,9 @@ class TaskViewModel @Inject constructor(val repo:TaskRepository):ViewModel() {
     fun clearDb(){
         repo.clearDb()
     }
+
+    fun postTOApi(postDataRequest: PostDataRequest){
+        repo.postTOApi(postDataRequest)
+    }
+
 }
